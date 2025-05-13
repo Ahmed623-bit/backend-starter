@@ -1,0 +1,25 @@
+# node modules (حجمها كبير ومش ضروري تترفع)
+node_modules/
+
+# ملفات البيئة الحساسة
+.env
+
+# ملفات الـ log
+logs
+*.log
+npm-debug.log*
+
+# نظام التشغيل (ويندوز / ماك)
+.DS_Store
+Thumbs.db
+
+# ملف التغطية في حال استخدمت jest أو أدوات testing
+coverage/
+
+# ملفات التكوينات المحلية
+.vscode/
+.idea/
+
+# مجلدات البناء (لو استخدمت TypeScript أو أدوات بناء)
+dist/
+build/
